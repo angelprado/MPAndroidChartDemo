@@ -39,9 +39,6 @@ public class MPUtil {
         barDataSet.setValueTextSize(textSize);
         barDataSet.setBarSpacePercent(30);
 
-
-//        barDataSet.setBarSpacePercent(20);
-
         dataSets.add(barDataSet);
 
         return dataSets;
@@ -88,7 +85,6 @@ public class MPUtil {
 
         chart.setData(data);
         chart.setDescription("");
-        chart.animateXY(0000, 3000);
         chart.invalidate();
         chart.setHorizontalScrollBarEnabled(true);
         chart.setVisibleXRange(8);

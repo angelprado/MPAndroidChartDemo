@@ -12,11 +12,31 @@
         android:background="#ffb3b3" />
 
     <android.support.v7.widget.AppCompatButton
-        android:id="@+id/btnShowAnimation"
+        android:id="@+id/btnXAnimation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_below="@+id/chart"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="50dp"
+        android:text="Show X Animation" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnYAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/chart"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="50dp"
+        android:text="Show Y Animation" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnXYAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnXAnimation"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:text="Show with Animation" />
+        android:text="Show XY Animation" />
 </RelativeLayout>
